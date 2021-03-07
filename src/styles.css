@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+.texto-negrito {
+  font-weight: 600;
+}
+
+.texto-uppercase {
+  text-transform: uppercase;
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs20 {
+  font-size: 20px;
+}

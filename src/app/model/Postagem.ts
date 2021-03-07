@@ -6,9 +6,10 @@ export class Postagem {
     public descricao: string;
     public data: Date;
     public link: string;
-    public interacao: string;
+    public interacao: number;
     public tag: string;
     public usuario: User;
     public tema: Tema;
+
 
 }
