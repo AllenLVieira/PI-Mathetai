@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="card mr-5">
-      <img src="https://i.imgur.com/pSm4n8i.jpg" alt="" />
+      <img class="img-fluid" src="https://i.imgur.com/pSm4n8i.jpg" alt="" />
     </div>
   </div>
   <div class="col-md-9">
@@ -168,7 +168,7 @@
           <div
             class="postOpcoes d-flex flex-wrap justify-content-around align-items-center"
           >
-            <a (click)="curtir()"
+            <a (click)="curtir(item.id)"
               ><i class="fas fa-thumbs-up"></i> Curtir
               <span>{{ curtida }}</span></a
             >
